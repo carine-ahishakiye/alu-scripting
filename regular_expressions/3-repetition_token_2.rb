@@ -14,4 +14,3 @@ if input_string.match?(pattern)
 else
   puts "Incorrect output with #{input_string}"
 end
-
