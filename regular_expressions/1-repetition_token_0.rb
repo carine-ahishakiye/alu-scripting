@@ -12,7 +12,7 @@ end
 input_string = ARGV[0]
 
 # Regular expression pattern to match the specified cases
-pattern = /hbt{3,5}n/
+pattern = /hbt{2,4}n/
 
 # Match the input string against the pattern
 if input_string.match?(pattern)
