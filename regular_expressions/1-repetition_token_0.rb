@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 # 1-repetition_token_0.rb
 
 # Check if an argument is provided
@@ -10,7 +12,7 @@ end
 input_string = ARGV[0]
 
 # Regular expression pattern to match the specified cases
-pattern = /mandatory/
+pattern = /hbt{3,5}n/
 
 # Match the input string against the pattern
 if input_string.match?(pattern)
